@@ -1,0 +1,12 @@
+--- arch/arm/boot/dts/imx6dl-colibri-eval-v3.dts.bak	2017-04-05 14:34:18.449016827 +0800
++++ arch/arm/boot/dts/imx6dl-colibri-eval-v3.dts	2017-04-05 14:34:46.432537007 +0800
+@@ -259,9 +259,7 @@
+ 
+ &uart2 {
+ 	status = "okay";
+-#if 0
+ 	linux,rs485-enabled-at-boot-time;
+-#endif
+ };
+ 
+ &uart3 {
